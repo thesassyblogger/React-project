@@ -6,8 +6,6 @@ import Footer from './Footer';
 const EventPlanner = () => {
     return (
         <div className="event-planner-container">
-            <header>
-                <h1>Welcome to Event Planner</h1>
                 <div className="event-planner-container">
                     <header>
                         <h1>Welcome to Event Planner</h1>
@@ -84,7 +82,6 @@ const EventPlanner = () => {
                     <Footer/>
 
                 </div>
-            </header>
         </div>
     );
 };
